@@ -3,6 +3,8 @@
 == Create Database and Schemas 
 ==========================================================================
 
+Script Purpose:
+
 == This script creates a database naned'Datawarehouse' as well as three schemas in the database (bronze, silver and gold).
 */
 
