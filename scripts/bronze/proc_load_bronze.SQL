@@ -41,10 +41,6 @@ SET @end_time = GETDATE ();
 PRINT ‘>>  Load Duration:  ’ + CAST(DATEDIFF (second, @start_time, @end_time) AS NVARCHAR) + ‘ seconds ‘;
 PRINT ‘>> ---------------------------------------‘;
 
-SELECT*
-FROM bronze.crm_cust_info
-SELECT COUNT (*)
-FROM bronze.crm_cust_info 
 SET @start_time = GETDATE () ;
 PRINT ‘>>’ Truncating Table: bronze.crm_prd _info’ ;
 TRUNCATE TABLE bronze.crm_prd_info; (if you don’t do this you will end up with a duplicate table)
@@ -59,6 +55,7 @@ WITH (
 SET @end_time = GETDATE ();
 PRINT ‘>>  Load Duration:  ’ + CAST(DATEDIFF (second, @start_time, @end_time) AS NVARCHAR) + ‘ seconds ‘;
 PRINT ‘>> ---------------------------------------‘;
+
 SET @start_time = GETDATE () ;
 PRINT ‘>>’ Truncating Table: bronze.crm_sales_details’ ;
 TRUNCATE TABLE bronze.crm_sales_details;
@@ -76,6 +73,7 @@ PRINT ‘>> ---------------------------------------‘;
 PRINT ‘--------------------------------------------------------------------------------------------------------’ ;
 PRINT ‘Loading ERP Tables’ ;
 PRINT ‘---------------------------------------------------------------------------------------------------------' ;
+
 SET @start_time = GETDATE () ;
 PRINT ‘>>’ Truncating Table: bronze.erp_loc_a101’ ;
 TRUNCATE TABLE bronze.erp_loc_a101;
