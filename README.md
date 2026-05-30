@@ -6,7 +6,7 @@ Data Architecture - designing modern data architecture. <br>
 Data Engineering - writing etl (extract, transform, load) code to clean, transform and prepare the data for analysis. <br>
 Data Modelling - creating a new data model for analysis from scratch.<br>
 
-This project touches on all of the following : Data Warehousing, Exploratory Data Analysis and Advanced Data Analytics. <br> It is highly useful as an exercise for any budding data analyst who wants to have an overall view of how a Data Warehouse Project runs in its entirety by understanding all of the necessary elements such a project entails including those of the data architect, the data modeller and the data engineer.<br>
+This project touches on all of the following : Data Warehousing, Exploratory Data Analysis and Advanced Data Analytics. <br> It is highly useful as an exercise for any budding data analyst who wants to have an overall view of how a Data Warehouse Project runs in its entirety. It highlighs all of the necessary elements such a project entails including those of the data architect, the data modeller and the data engineer.<br>
 
 For this project I will be using MySQL
 
