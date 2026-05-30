@@ -1,4 +1,25 @@
+/*
+==========================================================================================================================
+Quality Checks
+==========================================================================================================================
 
+Scrit Purpose:
+This script carries out data quality checks across all of the silver schemas to include data consistency, data accuracy and 
+data standardisation.
+It includes check for all of the following:
+- Nulls or duplicate primary keys
+- Unwnanted spaces
+- Data standardisation and consistency
+- Invalid date ranges and orders
+- Data consistency between related fields
+
+Usage Notes:
+These checks should be run after running the silver layer.
+============================================================================================================================
+*/
+=============================================================================================================================
+CHECKING SILVER CRM
+=============================================================================================================================
 --  Check for Nulls or Duplicates in Primary Key
 -- Expectation: No Result
 
@@ -181,6 +202,9 @@ SELECT *
 FROM (silver). (crm_cust_info);
 WHERE cid LIKE ‘%AW00011000%’
 
+==========================================================================================================================
+CHECK SILVER ERP
+===========================================================================================================================
 == Check for birth dates that are out of range ==
 SELECT DISTINCT
 bdate
