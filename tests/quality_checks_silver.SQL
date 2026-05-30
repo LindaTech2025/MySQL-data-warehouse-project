@@ -249,7 +249,3 @@ ORDER BY cntry
 
 
 
-
-
-FROM bronze.crm_cust_info
-WHERE cst_firstname != TRIM (cst_firstname)
