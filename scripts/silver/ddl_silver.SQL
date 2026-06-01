@@ -4,6 +4,7 @@ DDL SCRIPT: CREATE SILVER TABLES
 =====================================================================================
 SCRIPT PURPOSE:
 This script creates tables in the silver schema
+It will drop the table from the schema if it already exists in order to avoid duplication.
 =====================================================================================
 */
 
