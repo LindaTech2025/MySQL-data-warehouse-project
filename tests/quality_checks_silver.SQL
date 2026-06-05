@@ -4,7 +4,7 @@ Quality Checks
 ==========================================================================================================================
 
 Scrit Purpose:
-This script carries out data quality checks across all of the silver schemas to include data consistency, data accuracy and 
+This script carries out data quality checks across all of the silver schemas to include data consistency, data accuracy and
 data standardisation.
 It includes checks for all of the following:
 - Nulls or duplicate primary keys
