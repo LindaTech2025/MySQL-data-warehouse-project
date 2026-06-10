@@ -1,0 +1,619 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="VXen5XAnBAA0QcdbcrXZ">
+    <mxGraphModel dx="772" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yY_yodjMPLwjASsPcFNh-1" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=1;" value="Assets" vertex="1">
+          <mxGeometry height="206" width="720" x="30" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-2" parent="yY_yodjMPLwjASsPcFNh-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="40" width="720" as="geometry" />
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-3" parent="yY_yodjMPLwjASsPcFNh-2" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Column Name" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-4" parent="yY_yodjMPLwjASsPcFNh-2" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Data Type" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-5" parent="yY_yodjMPLwjASsPcFNh-2" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Description" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-6" parent="yY_yodjMPLwjASsPcFNh-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="42" width="720" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-7" parent="yY_yodjMPLwjASsPcFNh-6" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="customer_key" vertex="1">
+          <mxGeometry height="42" width="126" as="geometry">
+            <mxRectangle height="42" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-8" parent="yY_yodjMPLwjASsPcFNh-6" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="42" width="130" x="126" as="geometry">
+            <mxRectangle height="42" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-9" parent="yY_yodjMPLwjASsPcFNh-6" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="Surrogate key uniquely identfying each product record in the product dimension table." vertex="1">
+          <mxGeometry height="42" width="464" x="256" as="geometry">
+            <mxRectangle height="42" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-10" parent="yY_yodjMPLwjASsPcFNh-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-11" parent="yY_yodjMPLwjASsPcFNh-10" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="customer_id" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-12" parent="yY_yodjMPLwjASsPcFNh-10" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-13" parent="yY_yodjMPLwjASsPcFNh-10" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="Unique numerical identifier assigned to each customer." vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-14" parent="yY_yodjMPLwjASsPcFNh-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="44" width="720" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-15" parent="yY_yodjMPLwjASsPcFNh-14" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="customer_number" vertex="1">
+          <mxGeometry height="44" width="126" as="geometry">
+            <mxRectangle height="44" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-16" parent="yY_yodjMPLwjASsPcFNh-14" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="44" width="130" x="126" as="geometry">
+            <mxRectangle height="44" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-17" parent="yY_yodjMPLwjASsPcFNh-14" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="Alphanumeric identifier representing the customer, used for tracking and referencing." vertex="1">
+          <mxGeometry height="44" width="464" x="256" as="geometry">
+            <mxRectangle height="44" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-18" parent="yY_yodjMPLwjASsPcFNh-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-19" parent="yY_yodjMPLwjASsPcFNh-18" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="first_name" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-20" parent="yY_yodjMPLwjASsPcFNh-18" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yY_yodjMPLwjASsPcFNh-21" parent="yY_yodjMPLwjASsPcFNh-18" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="The customer&#39;s first name as recorded in the system." vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-24" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=1;" value="" vertex="1">
+          <mxGeometry height="294" width="720" x="30" y="396" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-25" parent="KMI4vZITHwHKVpHoVWsp-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="47" width="720" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-26" parent="KMI4vZITHwHKVpHoVWsp-25" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;last_name&lt;/span&gt;" vertex="1">
+          <mxGeometry height="47" width="126" as="geometry">
+            <mxRectangle height="47" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-27" parent="KMI4vZITHwHKVpHoVWsp-25" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;NVARCHAR(50)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="47" width="124" x="126" as="geometry">
+            <mxRectangle height="47" width="124" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-28" parent="KMI4vZITHwHKVpHoVWsp-25" style="connectable=0;recursiveResize=0;align=left;fontStyle=1;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;The customer&#39;s last name or family name&lt;/span&gt;" vertex="1">
+          <mxGeometry height="47" width="470" x="250" as="geometry">
+            <mxRectangle height="47" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-29" parent="KMI4vZITHwHKVpHoVWsp-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="49" width="720" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-30" parent="KMI4vZITHwHKVpHoVWsp-29" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="country" vertex="1">
+          <mxGeometry height="49" width="126" as="geometry">
+            <mxRectangle height="49" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-31" parent="KMI4vZITHwHKVpHoVWsp-29" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="49" width="124" x="126" as="geometry">
+            <mxRectangle height="49" width="124" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-32" parent="KMI4vZITHwHKVpHoVWsp-29" style="connectable=0;recursiveResize=0;align=left;whiteSpace=wrap;html=1;" value="The country of residence for the customer (e.g., &#39;Australia&#39;)" vertex="1">
+          <mxGeometry height="49" width="470" x="250" as="geometry">
+            <mxRectangle height="49" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-33" parent="KMI4vZITHwHKVpHoVWsp-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="47" width="720" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-34" parent="KMI4vZITHwHKVpHoVWsp-33" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="marital_status" vertex="1">
+          <mxGeometry height="47" width="126" as="geometry">
+            <mxRectangle height="47" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-35" parent="KMI4vZITHwHKVpHoVWsp-33" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="47" width="124" x="126" as="geometry">
+            <mxRectangle height="47" width="124" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-36" parent="KMI4vZITHwHKVpHoVWsp-33" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="The marital status of the customer (e.g., &#39;Married&#39;, &#39;Single&#39;)" vertex="1">
+          <mxGeometry height="47" width="470" x="250" as="geometry">
+            <mxRectangle height="47" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-37" parent="KMI4vZITHwHKVpHoVWsp-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="52" width="720" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-38" parent="KMI4vZITHwHKVpHoVWsp-37" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="gender" vertex="1">
+          <mxGeometry height="52" width="126" as="geometry">
+            <mxRectangle height="52" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-39" parent="KMI4vZITHwHKVpHoVWsp-37" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="52" width="124" x="126" as="geometry">
+            <mxRectangle height="52" width="124" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-40" parent="KMI4vZITHwHKVpHoVWsp-37" style="connectable=0;recursiveResize=0;fontStyle=0;align=left;whiteSpace=wrap;html=1;" value="The gender of the customer (e.g. &#39;Male&#39;, &#39;Female&#39;, &#39;n/a&#39;)." vertex="1">
+          <mxGeometry height="52" width="470" x="250" as="geometry">
+            <mxRectangle height="52" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-41" parent="KMI4vZITHwHKVpHoVWsp-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="47" width="720" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-42" parent="KMI4vZITHwHKVpHoVWsp-41" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="birthdate" vertex="1">
+          <mxGeometry height="47" width="126" as="geometry">
+            <mxRectangle height="47" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-43" parent="KMI4vZITHwHKVpHoVWsp-41" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="DATE" vertex="1">
+          <mxGeometry height="47" width="124" x="126" as="geometry">
+            <mxRectangle height="47" width="124" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-44" parent="KMI4vZITHwHKVpHoVWsp-41" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="The date of the birth of the custome, formatted as YYYY-MM-DD." vertex="1">
+          <mxGeometry height="47" width="470" x="250" as="geometry">
+            <mxRectangle height="47" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-45" parent="KMI4vZITHwHKVpHoVWsp-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="52" width="720" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-46" parent="KMI4vZITHwHKVpHoVWsp-45" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="create_date" vertex="1">
+          <mxGeometry height="52" width="126" as="geometry">
+            <mxRectangle height="52" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-47" parent="KMI4vZITHwHKVpHoVWsp-45" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="DATE" vertex="1">
+          <mxGeometry height="52" width="124" x="126" as="geometry">
+            <mxRectangle height="52" width="124" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-48" parent="KMI4vZITHwHKVpHoVWsp-45" style="connectable=0;recursiveResize=0;fontStyle=0;align=left;whiteSpace=wrap;html=1;" value="The date and time when the customer record was created in the system." vertex="1">
+          <mxGeometry height="52" width="470" x="250" as="geometry">
+            <mxRectangle height="52" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-183" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=1;" value="Assets" vertex="1">
+          <mxGeometry height="248" width="720" x="30" y="948" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-184" parent="KMI4vZITHwHKVpHoVWsp-183" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="42" width="720" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-185" parent="KMI4vZITHwHKVpHoVWsp-184" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;category&lt;/span&gt;" vertex="1">
+          <mxGeometry height="42" width="126" as="geometry">
+            <mxRectangle height="42" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-186" parent="KMI4vZITHwHKVpHoVWsp-184" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;NVARCHAR(50)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="42" width="130" x="126" as="geometry">
+            <mxRectangle height="42" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-187" parent="KMI4vZITHwHKVpHoVWsp-184" style="connectable=0;recursiveResize=0;align=left;fontStyle=1;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The broader classification of the product (e.g. bikes, components) to group related&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;items.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="464" x="256" as="geometry">
+            <mxRectangle height="42" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-188" parent="KMI4vZITHwHKVpHoVWsp-183" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="42" width="720" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-189" parent="KMI4vZITHwHKVpHoVWsp-188" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="subcategory" vertex="1">
+          <mxGeometry height="42" width="126" as="geometry">
+            <mxRectangle height="42" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-190" parent="KMI4vZITHwHKVpHoVWsp-188" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="42" width="130" x="126" as="geometry">
+            <mxRectangle height="42" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-191" parent="KMI4vZITHwHKVpHoVWsp-188" style="connectable=0;recursiveResize=0;align=left;whiteSpace=wrap;html=1;" value="A more detailed classification of the product within the category, such as product type." vertex="1">
+          <mxGeometry height="42" width="464" x="256" as="geometry">
+            <mxRectangle height="42" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-192" parent="KMI4vZITHwHKVpHoVWsp-183" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-193" parent="KMI4vZITHwHKVpHoVWsp-192" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="maintenance_required" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-194" parent="KMI4vZITHwHKVpHoVWsp-192" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-195" parent="KMI4vZITHwHKVpHoVWsp-192" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="Indicataes whether the product requires maintenance (e.g. &#39;Yes&#39;, &#39;No&#39;)." vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-196" parent="KMI4vZITHwHKVpHoVWsp-183" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="44" width="720" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-197" parent="KMI4vZITHwHKVpHoVWsp-196" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="cost" vertex="1">
+          <mxGeometry height="44" width="126" as="geometry">
+            <mxRectangle height="44" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-198" parent="KMI4vZITHwHKVpHoVWsp-196" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="44" width="130" x="126" as="geometry">
+            <mxRectangle height="44" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-199" parent="KMI4vZITHwHKVpHoVWsp-196" style="connectable=0;recursiveResize=0;fontStyle=0;align=left;whiteSpace=wrap;html=1;" value="The cost or base price of the product; measured in monetary units." vertex="1">
+          <mxGeometry height="44" width="464" x="256" as="geometry">
+            <mxRectangle height="44" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-200" parent="KMI4vZITHwHKVpHoVWsp-183" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-201" parent="KMI4vZITHwHKVpHoVWsp-200" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="product_line" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-202" parent="KMI4vZITHwHKVpHoVWsp-200" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-203" parent="KMI4vZITHwHKVpHoVWsp-200" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;The specific product line or series to which the product belongs (e.g., Road, Mountain).&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-204" parent="KMI4vZITHwHKVpHoVWsp-183" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-205" parent="KMI4vZITHwHKVpHoVWsp-204" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="start_date" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-206" parent="KMI4vZITHwHKVpHoVWsp-204" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="DATE" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-207" parent="KMI4vZITHwHKVpHoVWsp-204" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;The date when the product became available for sale or use, stored in&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-162" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=1;" value="Assets" vertex="1">
+          <mxGeometry height="242" width="720" x="30" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-163" parent="KMI4vZITHwHKVpHoVWsp-162" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="40" width="720" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-164" parent="KMI4vZITHwHKVpHoVWsp-163" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Column Name" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-165" parent="KMI4vZITHwHKVpHoVWsp-163" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Data Type" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-166" parent="KMI4vZITHwHKVpHoVWsp-163" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Description" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-167" parent="KMI4vZITHwHKVpHoVWsp-162" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="44" width="720" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-168" parent="KMI4vZITHwHKVpHoVWsp-167" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="product_key" vertex="1">
+          <mxGeometry height="44" width="126" as="geometry">
+            <mxRectangle height="44" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-169" parent="KMI4vZITHwHKVpHoVWsp-167" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="44" width="130" x="126" as="geometry">
+            <mxRectangle height="44" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-170" parent="KMI4vZITHwHKVpHoVWsp-167" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="Surrogate key uniquely identfying each product record in the product dimension table." vertex="1">
+          <mxGeometry height="44" width="464" x="256" as="geometry">
+            <mxRectangle height="44" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-171" parent="KMI4vZITHwHKVpHoVWsp-162" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-172" parent="KMI4vZITHwHKVpHoVWsp-171" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="product_id" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-173" parent="KMI4vZITHwHKVpHoVWsp-171" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-174" parent="KMI4vZITHwHKVpHoVWsp-171" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="A unique identifier assigned to the product for internal tracking and referencing." vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-175" parent="KMI4vZITHwHKVpHoVWsp-162" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="44" width="720" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-176" parent="KMI4vZITHwHKVpHoVWsp-175" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="product_number" vertex="1">
+          <mxGeometry height="44" width="126" as="geometry">
+            <mxRectangle height="44" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-177" parent="KMI4vZITHwHKVpHoVWsp-175" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="44" width="130" x="126" as="geometry">
+            <mxRectangle height="44" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-178" parent="KMI4vZITHwHKVpHoVWsp-175" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="A structured alphanumeric code representing the product, often used for categorisation or inventory." vertex="1">
+          <mxGeometry height="44" width="464" x="256" as="geometry">
+            <mxRectangle height="44" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-179" parent="KMI4vZITHwHKVpHoVWsp-162" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-180" parent="KMI4vZITHwHKVpHoVWsp-179" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="product_name" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-181" parent="KMI4vZITHwHKVpHoVWsp-179" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-182" parent="KMI4vZITHwHKVpHoVWsp-179" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="Descriptive name of the product, including key details such as type, color and size." vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-208" parent="KMI4vZITHwHKVpHoVWsp-162" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="34" width="720" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-209" parent="KMI4vZITHwHKVpHoVWsp-208" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="category_id" vertex="1">
+          <mxGeometry height="34" width="126" as="geometry">
+            <mxRectangle height="34" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-210" parent="KMI4vZITHwHKVpHoVWsp-208" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="34" width="130" x="126" as="geometry">
+            <mxRectangle height="34" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-211" parent="KMI4vZITHwHKVpHoVWsp-208" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="A unique identifier for the products category, linking to it&#39;s highl level classification." vertex="1">
+          <mxGeometry height="34" width="464" x="256" as="geometry">
+            <mxRectangle height="34" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-221" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=1;" value="Assets" vertex="1">
+          <mxGeometry height="408" width="720" x="30" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-222" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="42" width="720" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-223" parent="KMI4vZITHwHKVpHoVWsp-222" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Coulmn Name" vertex="1">
+          <mxGeometry height="42" width="126" as="geometry">
+            <mxRectangle height="42" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-224" parent="KMI4vZITHwHKVpHoVWsp-222" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Data Type" vertex="1">
+          <mxGeometry height="42" width="130" x="126" as="geometry">
+            <mxRectangle height="42" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-225" parent="KMI4vZITHwHKVpHoVWsp-222" style="connectable=0;recursiveResize=0;align=center;fontStyle=1;html=1;" value="Description" vertex="1">
+          <mxGeometry height="42" width="464" x="256" as="geometry">
+            <mxRectangle height="42" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-226" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="42" width="720" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-227" parent="KMI4vZITHwHKVpHoVWsp-226" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="order_number" vertex="1">
+          <mxGeometry height="42" width="126" as="geometry">
+            <mxRectangle height="42" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-228" parent="KMI4vZITHwHKVpHoVWsp-226" style="connectable=0;recursiveResize=0;align=center;whiteSpace=wrap;html=1;" value="NVARCHAR(50)" vertex="1">
+          <mxGeometry height="42" width="130" x="126" as="geometry">
+            <mxRectangle height="42" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-229" parent="KMI4vZITHwHKVpHoVWsp-226" style="connectable=0;recursiveResize=0;align=left;whiteSpace=wrap;html=1;" value="A unique alphanumeric identifier for each sales order (e.g.," vertex="1">
+          <mxGeometry height="42" width="464" x="256" as="geometry">
+            <mxRectangle height="42" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-230" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-231" parent="KMI4vZITHwHKVpHoVWsp-230" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="product_key" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-232" parent="KMI4vZITHwHKVpHoVWsp-230" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-233" parent="KMI4vZITHwHKVpHoVWsp-230" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="Surrogate key linking the order to the product dimension table." vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-234" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="44" width="720" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-235" parent="KMI4vZITHwHKVpHoVWsp-234" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="customer_key" vertex="1">
+          <mxGeometry height="44" width="126" as="geometry">
+            <mxRectangle height="44" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-236" parent="KMI4vZITHwHKVpHoVWsp-234" style="connectable=0;recursiveResize=0;fontStyle=0;align=center;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="44" width="130" x="126" as="geometry">
+            <mxRectangle height="44" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-237" parent="KMI4vZITHwHKVpHoVWsp-234" style="connectable=0;recursiveResize=0;fontStyle=0;align=left;whiteSpace=wrap;html=1;" value="Surroagate key linking the order to the customer dimension table." vertex="1">
+          <mxGeometry height="44" width="464" x="256" as="geometry">
+            <mxRectangle height="44" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-238" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-239" parent="KMI4vZITHwHKVpHoVWsp-238" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="order_date" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-240" parent="KMI4vZITHwHKVpHoVWsp-238" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="DATE" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-241" parent="KMI4vZITHwHKVpHoVWsp-238" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;Thd date when the order was placed.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-242" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-243" parent="KMI4vZITHwHKVpHoVWsp-242" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="shipping_date" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-244" parent="KMI4vZITHwHKVpHoVWsp-242" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="DATE" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-245" parent="KMI4vZITHwHKVpHoVWsp-242" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;The date when the order was shipped.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-246" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-247" parent="KMI4vZITHwHKVpHoVWsp-246" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="due_date" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-248" parent="KMI4vZITHwHKVpHoVWsp-246" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="DATE" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-249" parent="KMI4vZITHwHKVpHoVWsp-246" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;The date when the order payment was due.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-250" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-251" parent="KMI4vZITHwHKVpHoVWsp-250" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="sales_amount" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-252" parent="KMI4vZITHwHKVpHoVWsp-250" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-253" parent="KMI4vZITHwHKVpHoVWsp-250" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="The total monetary value of the sale for the item, in whole currency units (e.g.. 25)." vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-254" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-255" parent="KMI4vZITHwHKVpHoVWsp-254" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="quantity" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-256" parent="KMI4vZITHwHKVpHoVWsp-254" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-257" parent="KMI4vZITHwHKVpHoVWsp-254" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="The number of units of the product ordered for the line item (e.g., 1)" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-258" parent="KMI4vZITHwHKVpHoVWsp-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" value="" vertex="1">
+          <mxGeometry height="40" width="720" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-259" parent="KMI4vZITHwHKVpHoVWsp-258" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="price" vertex="1">
+          <mxGeometry height="40" width="126" as="geometry">
+            <mxRectangle height="40" width="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-260" parent="KMI4vZITHwHKVpHoVWsp-258" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="40" width="130" x="126" as="geometry">
+            <mxRectangle height="40" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMI4vZITHwHKVpHoVWsp-261" parent="KMI4vZITHwHKVpHoVWsp-258" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;The price per unit of the product for the line item, in the whole currency units (e.g., 25)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="464" x="256" as="geometry">
+            <mxRectangle height="40" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
